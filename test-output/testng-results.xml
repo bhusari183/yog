@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="5" failed="0" ignored="0" total="5" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="1019" started-at="2022-05-06T17:51:45Z" finished-at="2022-05-06T17:51:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="1019" started-at="2022-05-06T17:51:45Z" finished-at="2022-05-06T17:51:46Z">
+      <class name="Test.Login">
+        <test-method status="FAIL" signature="openBrowser()[pri:0, instance:Test.Login@5c30a9b0]" name="openBrowser" is-config="true" duration-ms="108" started-at="2022-05-06T17:51:45Z" finished-at="2022-05-06T17:51:45Z">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: D:\TESTING REQUIRED APPS JARS\Chrome 98 drivers\chromedriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: D:\TESTING REQUIRED APPS JARS\Chrome 98 drivers\chromedriver.exe
+at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at Test.Login.openBrowser(Login.java:44)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="SKIP" signature="enterUrl()[pri:0, instance:Test.Login@5c30a9b0]" name="enterUrl" is-config="true" duration-ms="0" started-at="2022-05-06T17:51:45Z" finished-at="2022-05-06T17:51:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterUrl -->
+        <test-method status="SKIP" signature="TimemaxWindow()[pri:0, instance:Test.Login@5c30a9b0]" name="TimemaxWindow" is-config="true" duration-ms="0" started-at="2022-05-06T17:51:45Z" finished-at="2022-05-06T17:51:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TimemaxWindow -->
+        <test-method status="SKIP" signature="ScreenshotCookie()[pri:0, instance:Test.Login@5c30a9b0]" name="ScreenshotCookie" is-config="true" duration-ms="0" started-at="2022-05-06T17:51:46Z" finished-at="2022-05-06T17:51:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotCookie -->
+        <test-method status="SKIP" signature="Register(java.lang.String, java.lang.String)[pri:0, instance:Test.Login@5c30a9b0]" name="Register" duration-ms="0" started-at="2022-05-06T17:51:46Z" data-provider="data" finished-at="2022-05-06T17:51:46Z">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: D:\TESTING REQUIRED APPS JARS\Chrome 98 drivers\chromedriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: D:\TESTING REQUIRED APPS JARS\Chrome 98 drivers\chromedriver.exe
+at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at Test.Login.openBrowser(Login.java:44)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register -->
+        <test-method status="SKIP" signature="Screenshot()[pri:0, instance:Test.Login@5c30a9b0]" name="Screenshot" is-config="true" duration-ms="0" started-at="2022-05-06T17:51:46Z" finished-at="2022-05-06T17:51:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Screenshot -->
+        <test-method status="SKIP" signature="ScreenshotCookie()[pri:0, instance:Test.Login@5c30a9b0]" name="ScreenshotCookie" is-config="true" duration-ms="0" started-at="2022-05-06T17:51:46Z" finished-at="2022-05-06T17:51:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotCookie -->
+        <test-method status="SKIP" signature="Register(java.lang.String, java.lang.String)[pri:0, instance:Test.Login@5c30a9b0]" name="Register" duration-ms="0" started-at="2022-05-06T17:51:46Z" data-provider="data" finished-at="2022-05-06T17:51:46Z">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: D:\TESTING REQUIRED APPS JARS\Chrome 98 drivers\chromedriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: D:\TESTING REQUIRED APPS JARS\Chrome 98 drivers\chromedriver.exe
+at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at Test.Login.openBrowser(Login.java:44)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register -->
+        <test-method status="SKIP" signature="Screenshot()[pri:0, instance:Test.Login@5c30a9b0]" name="Screenshot" is-config="true" duration-ms="0" started-at="2022-05-06T17:51:46Z" finished-at="2022-05-06T17:51:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Screenshot -->
+        <test-method status="SKIP" signature="ScreenshotCookie()[pri:0, instance:Test.Login@5c30a9b0]" name="ScreenshotCookie" is-config="true" duration-ms="0" started-at="2022-05-06T17:51:46Z" finished-at="2022-05-06T17:51:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotCookie -->
+        <test-method status="SKIP" signature="Register(java.lang.String, java.lang.String)[pri:0, instance:Test.Login@5c30a9b0]" name="Register" duration-ms="0" started-at="2022-05-06T17:51:46Z" data-provider="data" finished-at="2022-05-06T17:51:46Z">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: D:\TESTING REQUIRED APPS JARS\Chrome 98 drivers\chromedriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: D:\TESTING REQUIRED APPS JARS\Chrome 98 drivers\chromedriver.exe
+at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at Test.Login.openBrowser(Login.java:44)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register -->
+        <test-method status="SKIP" signature="Screenshot()[pri:0, instance:Test.Login@5c30a9b0]" name="Screenshot" is-config="true" duration-ms="0" started-at="2022-05-06T17:51:46Z" finished-at="2022-05-06T17:51:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Screenshot -->
+        <test-method status="SKIP" signature="ScreenshotCookie()[pri:0, instance:Test.Login@5c30a9b0]" name="ScreenshotCookie" is-config="true" duration-ms="0" started-at="2022-05-06T17:51:46Z" finished-at="2022-05-06T17:51:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotCookie -->
+        <test-method status="SKIP" signature="Register(java.lang.String, java.lang.String)[pri:0, instance:Test.Login@5c30a9b0]" name="Register" duration-ms="0" started-at="2022-05-06T17:51:46Z" data-provider="data" finished-at="2022-05-06T17:51:46Z">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: D:\TESTING REQUIRED APPS JARS\Chrome 98 drivers\chromedriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: D:\TESTING REQUIRED APPS JARS\Chrome 98 drivers\chromedriver.exe
+at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at Test.Login.openBrowser(Login.java:44)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register -->
+        <test-method status="SKIP" signature="Screenshot()[pri:0, instance:Test.Login@5c30a9b0]" name="Screenshot" is-config="true" duration-ms="0" started-at="2022-05-06T17:51:46Z" finished-at="2022-05-06T17:51:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Screenshot -->
+        <test-method status="SKIP" signature="ScreenshotCookie()[pri:0, instance:Test.Login@5c30a9b0]" name="ScreenshotCookie" is-config="true" duration-ms="0" started-at="2022-05-06T17:51:46Z" finished-at="2022-05-06T17:51:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ScreenshotCookie -->
+        <test-method status="SKIP" signature="Register(java.lang.String, java.lang.String)[pri:0, instance:Test.Login@5c30a9b0]" name="Register" duration-ms="0" started-at="2022-05-06T17:51:46Z" data-provider="data" finished-at="2022-05-06T17:51:46Z">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: D:\TESTING REQUIRED APPS JARS\Chrome 98 drivers\chromedriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: D:\TESTING REQUIRED APPS JARS\Chrome 98 drivers\chromedriver.exe
+at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at Test.Login.openBrowser(Login.java:44)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:401)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Register -->
+        <test-method status="SKIP" signature="Screenshot()[pri:0, instance:Test.Login@5c30a9b0]" name="Screenshot" is-config="true" duration-ms="0" started-at="2022-05-06T17:51:46Z" finished-at="2022-05-06T17:51:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Screenshot -->
+        <test-method status="SKIP" signature="cookieDelet()[pri:0, instance:Test.Login@5c30a9b0]" name="cookieDelet" is-config="true" duration-ms="0" started-at="2022-05-06T17:51:46Z" finished-at="2022-05-06T17:51:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cookieDelet -->
+        <test-method status="SKIP" signature="dbConnection()[pri:0, instance:Test.Login@5c30a9b0]" name="dbConnection" is-config="true" duration-ms="0" started-at="2022-05-06T17:51:46Z" finished-at="2022-05-06T17:51:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dbConnection -->
+        <test-method status="SKIP" signature="Close()[pri:0, instance:Test.Login@5c30a9b0]" name="Close" is-config="true" duration-ms="0" started-at="2022-05-06T17:51:47Z" finished-at="2022-05-06T17:51:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close -->
+      </class> <!-- Test.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,31 @@
+2022-02-17 11:49:07,888  INFO [main] Login:45 - ===CHROME OPEN===
+2022-02-17 11:49:15,359  INFO [main] Login:54 - ===ENTER URL===
+2022-02-17 11:49:15,789  INFO [main] Login:61 - ===WINDOW MAXIMIZE===
+2022-02-17 11:49:18,237  INFO [main] Login:70 - ===TAKE SCRENSHOT BEFORE METHOD===
+2022-02-17 11:49:18,315  INFO [main] LoginPage:30 - ---LOGIN PAGE OPEN---
+2022-02-17 11:49:18,589  INFO [main] LoginPage:32 - ---ENTER UNAME---
+2022-02-17 11:49:18,751  INFO [main] LoginPage:34 - ---ENTER PASS---
+2022-02-17 11:49:22,710  INFO [main] LoginPage:39 - ---EXPECTED = Login: Mercury Tours ---ACTUAL = Login: Mercury Tours ---
+2022-02-17 11:49:22,710  INFO [main] LoginPage:41 - ==========================REGISTER PAGE IS VALID==========================
+2022-02-17 11:49:24,800  INFO [main] Login:92 - ===TAKE SCRENSHOT AFTER METHOD===
+2022-02-17 11:49:25,181  INFO [main] Login:70 - ===TAKE SCRENSHOT BEFORE METHOD===
+2022-02-17 11:49:25,181  INFO [main] LoginPage:30 - ---LOGIN PAGE OPEN---
+2022-02-17 11:49:25,668  INFO [main] Login:92 - ===TAKE SCRENSHOT AFTER METHOD===
+2022-02-17 11:49:26,122  INFO [main] Login:70 - ===TAKE SCRENSHOT BEFORE METHOD===
+2022-02-17 11:49:26,124  INFO [main] LoginPage:30 - ---LOGIN PAGE OPEN---
+2022-02-17 11:49:26,591  INFO [main] Login:92 - ===TAKE SCRENSHOT AFTER METHOD===
+2022-02-17 11:49:28,649  INFO [main] Login:70 - ===TAKE SCRENSHOT BEFORE METHOD===
+2022-02-17 11:49:28,655  INFO [main] LoginPage:30 - ---LOGIN PAGE OPEN---
+2022-02-17 11:49:29,346  INFO [main] LoginPage:32 - ---ENTER UNAME---
+2022-02-17 11:49:29,495  INFO [main] LoginPage:34 - ---ENTER PASS---
+2022-02-17 11:49:30,699  INFO [main] LoginPage:39 - ---EXPECTED = Login: Mercury Tours ---ACTUAL = Login: Mercury Tours ---
+2022-02-17 11:49:30,699  INFO [main] LoginPage:41 - ==========================REGISTER PAGE IS VALID==========================
+2022-02-17 11:49:32,656  INFO [main] Login:92 - ===TAKE SCRENSHOT AFTER METHOD===
+2022-02-17 11:49:33,053  INFO [main] Login:70 - ===TAKE SCRENSHOT BEFORE METHOD===
+2022-02-17 11:49:33,053  INFO [main] LoginPage:30 - ---LOGIN PAGE OPEN---
+2022-02-17 11:49:33,222  INFO [main] LoginPage:32 - ---ENTER UNAME---
+2022-02-17 11:49:33,394  INFO [main] LoginPage:34 - ---ENTER PASS---
+2022-02-17 11:49:36,443  INFO [main] Login:92 - ===TAKE SCRENSHOT AFTER METHOD===
+2022-02-17 11:49:37,762  INFO [main] Login:100 - ===DELETE COOKIE===
+2022-02-17 11:49:37,777  INFO [main] Login:107 - ===DB CONNECTION CLOSED===
+2022-02-17 11:49:37,903  WARN [main] Login:115 - ===BROWSER CLOSED===
