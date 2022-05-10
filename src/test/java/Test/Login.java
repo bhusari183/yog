@@ -35,7 +35,7 @@ public class Login {
 		
 		static Logger log=Logger.getLogger(Login.class.getName());
 		
-		
+		//beforesuite
 		@BeforeSuite
 		public void openBrowser()
 		{
